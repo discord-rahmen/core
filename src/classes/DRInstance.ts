@@ -1,11 +1,11 @@
-import type {DHInstanceClass} from "../types";
-import type {DHClientClass} from "@discord-rahmen/discord.js-layer/dist/types";
+import type {DRInstanceClass} from "../types";
+import type {DRClientClass} from "@discord-rahmen/discord.js-layer/dist/types";
 
-export class DHInstance implements DHInstanceClass {
+export class DRInstance implements DRInstanceClass {
     layer;
     plugins;
 
-    constructor(layer: DHClientClass, plugins: object[]) {
+    constructor(layer: DRClientClass, plugins: object[]) {
         this.layer = layer;
         this.plugins = plugins;
 

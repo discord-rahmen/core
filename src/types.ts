@@ -1,10 +1,10 @@
 import type {Client} from "discord.js";
 
-export interface DHInstanceClass {
-    layer: DHClientClass;
+export interface DRInstanceClass {
+    layer: DRClientClass;
     plugins: object[];
 }
 
-interface DHClientClass {
+interface DRClientClass {
     wrapperClient: Client;
 }
